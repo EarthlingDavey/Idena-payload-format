@@ -7,7 +7,7 @@ const someQuestion = {
   },
 };
 
-// Preset here is an agreed set of otions. ynp is shorthand for yess, no poll.
+// Preset here is an agreed set of otions. ynp is shorthand for a poll with yes and no options.
 
 const questionString = JSON.stringify(someQuestion);
 console.log(questionString);
