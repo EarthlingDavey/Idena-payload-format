@@ -7,6 +7,8 @@ const someQuestion = {
   },
 };
 
+// Preset here is an agreed set of otions. ynp is shorthand for yess, no poll.
+
 const questionString = JSON.stringify(someQuestion);
 console.log(questionString);
 // {"thing":"question","params":{"body":"Do you believe in ET life??","preset":"ynp","expiry":"2020-06-01T00:00:00Z"}}
